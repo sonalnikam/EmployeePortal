@@ -36,8 +36,8 @@
 			value="jdbc:mysql://172.30.247.124:3306/sampledb" />
 		<!--<property name="username" value="sonal" />
 		<property name="password" value="sonal" /> -->
-		  <property name="username" value="${env.OPENSHIFT_MYSQL_DB_USERNAME}"/>
-		<property name="password" value="${env.OPENSHIFT_MYSQL_DB_PASSWORD}" />
+		  <property name="username" value="System.env("OPENSHIFT_MYSQL_DB_USERNAME");"/>
+		<property name="password" value="System.env("OPENSHIFT_MYSQL_DB_PASSWORD");" />
 	</bean>
 	  
 	<!-- <mvc:resources mapping="/resources/**" location="/resources/theme1/" cache-period="31556926"/> -->
