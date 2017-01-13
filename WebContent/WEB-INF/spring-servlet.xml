@@ -33,9 +33,9 @@
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url"
-			value="jdbc:mysql://172.30.61.191:3306/test" />
-		<property name="username" value="admin" />
-		<property name="password" value="root" />
+			value="jdbc:mysql://172.30.247.124:3306/sampledb" />
+		<property name="username" value="sonal" />
+		<property name="password" value="sonal" />
 	</bean>
 	  
 	<!-- <mvc:resources mapping="/resources/**" location="/resources/theme1/" cache-period="31556926"/> -->
